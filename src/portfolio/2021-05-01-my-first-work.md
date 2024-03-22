@@ -5,7 +5,7 @@ date: 2024-02-03
 tags: ['post']
 image: /assets/portfolio/ocean.jpg
 imageAlt: "My First Article"
-description: Ancient Literature meets modern Web design. This website explores the modern concepts of CSS while using poetry written long ago.
+description: Ancient Literature meets modern Web design! This website explores the modern concepts of CSS while using poetry written long ago.
 ---
 Project Timeline: February 5th-11th
 <br>
