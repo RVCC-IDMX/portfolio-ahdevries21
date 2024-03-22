@@ -296,18 +296,21 @@ header,
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
-.contact-form{
+.form-elements{
   display:grid;
   text-align:left;
   row-gap:1 em;
   
 }
 .contact{
-  padding:1rem;
+  padding: 1rem;
   max-width:600px;
-  margin:2rem;
+  margin:2rem auto;
   align-items:center;
-  background-color:var(--clr-primary-500);
+  background-color:var(--clr-primary-100);
+  border-radius: .5em;
+  text-align:center;
+  border: 5px solid var(--clr-primary-500);
 }
 
 fieldset{
@@ -332,11 +335,4 @@ legend{
   margin:1rem;
   background-color: var(--clr-primary-200)
 }
-.contact-button{
-  background-color: var(--clr-primary-400);
-  border-radius:0.5em;
-  padding:0.5em;
-  max-width:400px;
-  width:50%;
-  justify-self:center;
-}
+
