@@ -151,7 +151,6 @@ header,
   grid-auto-columns: 1fr;
   align-items: center;
   gap: 3em;
-  background:
 }
 
 .hero__image {
@@ -296,4 +295,48 @@ header,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+.contact-form{
+  display:grid;
+  text-align:left;
+  row-gap:1 em;
+  
+}
+.contact{
+  padding:1rem;
+  max-width:600px;
+  margin:2rem;
+  align-items:center;
+  background-color:var(--clr-primary-500);
+}
+
+fieldset{
+  border:3px solid var(--clr-primary-300);
+  margin-block: 1em;
+  background-color: var(--clr-primary-200);
+  border-radius:.5em;
+}
+legend{
+  background-color: var(--clr-primary-300);
+  padding:0.5em;
+}
+.form-elements,.contact-form-message,{
+  padding: 0.5em;
+  font-size: 1em;
+}
+.contact ul{
+  list-style:none;
+  padding:0px;
+}
+.contact li{
+  margin:1rem;
+  background-color: var(--clr-primary-200)
+}
+.contact-button{
+  background-color: var(--clr-primary-400);
+  border-radius:0.5em;
+  padding:0.5em;
+  max-width:400px;
+  width:50%;
+  justify-self:center;
 }

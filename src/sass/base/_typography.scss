@@ -1,2 +1,9 @@
 /* typography */
-@import url('https://fonts.googleapis.com/css2?family=Carme&family=Laila:wght@300;400;500;600;700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap')
+
+@font-face{
+    font-family: 'Libre Franklin' sans-serif;
+    font-style: normal;
+    font-weight: 100-900;
+    src:url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
