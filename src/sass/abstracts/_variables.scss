@@ -6,7 +6,7 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Cormorant", serif;
+  --ff-body: "Montserrat", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
 
   --fw-400: 400;
@@ -25,6 +25,7 @@
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
 }
+
 
 @media (min-width: 35em) {
   :root {

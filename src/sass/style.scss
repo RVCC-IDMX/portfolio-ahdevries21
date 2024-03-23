@@ -12,7 +12,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   color: var(--clr-neutral-900);
-  
+   
 }
 
 h1,
@@ -91,7 +91,9 @@ section,
   display: flex;
   justify-content: space-between;
 }
-
+.mylogo{
+  width:100px;
+}
 .nav-list {
   margin: 0;
   padding: 0;
@@ -144,6 +146,12 @@ header,
 /* //////////////////////
   Homepage
   /////////////////////// */
+body{
+  background-image:url(/assets/Background.jpg);
+  background-size: cover;
+  background-repeat:initial;
+  max-width:100%;
+}
 
 .hero > div {
   display: grid;
@@ -151,12 +159,17 @@ header,
   grid-auto-columns: 1fr;
   align-items: center;
   gap: 3em;
+  background-color: var(--clr-primary-100);
+  padding-block-end:20px;
+  border-radius:10px;
 }
 
 .hero__image {
   width: 100%;
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
+  border: 7px solid var(--clr-primary-500);
+  
 }
 
 @media (min-width: 45em) {
@@ -201,6 +214,10 @@ header,
     "meta"
     "body"
     "button";
+    background-color: var(--clr-primary-100);
+    padding-block:20px;
+    padding-inline:20px;
+    border-radius:10px;
 }
 
 .snippet__image {
@@ -254,6 +271,11 @@ header,
     grid-template-rows: min-content min-content min-content 1fr;
   }
 }
+.main-article{
+  background-color: var(--clr-neutral-100);
+  padding-block:10px;
+  padding-inline:10px;
+}
 
 .btn {
   cursor: pointer;
@@ -296,6 +318,21 @@ header,
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
+.github-link{
+  color: var(--clr-neutral-900);
+  text-decoration:none;
+}
+
+.web-link{
+  color: var(--clr-neutral-900);
+  text-decoration:none;
+}
+.icon{
+  width:30px;
+  position:relative;
+}
+
+
 .form-elements{
   display:grid;
   text-align:left;
@@ -311,6 +348,7 @@ header,
   border-radius: .5em;
   text-align:center;
   border: 5px solid var(--clr-primary-500);
+  
 }
 
 fieldset{
@@ -334,5 +372,14 @@ legend{
 .contact li{
   margin:1rem;
   background-color: var(--clr-primary-200)
+}
+.btn--primary{
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  padding: 0.75em 1.75em;
+  border-radius: 0.25em;
+  align-self: start;
+  justify-self: start;
 }
 
